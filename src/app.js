@@ -5,6 +5,7 @@ const hbs=require('hbs')
 const Global=require('./utilis/global')
 const country=require('./utilis/country')
 const app = express()
+const port=process.env.PORT || 3000
 
 
 
@@ -82,6 +83,6 @@ app.get('*',function(req,res){
     res.render('error',{title:"page not found"})
 })
 
-app.listen(3000,function(){
-    console.log("Server started at port 3000")
+app.listen(port,function(){
+    console.log("Server started at port"+ port)
 })
