@@ -6,7 +6,7 @@ function country(countryName,callback){
             callback('unable to connect to internet',undefined)
         }
         else{
-            const data=response.body.Countries.find(c => c.Country.toLowerCase() === countryName)
+            const data=response.body.Countries.find(c => c.Country.toLowerCase() === countryName.toLowerCase())
             callback(undefined,data)
 
         }    
