@@ -36,7 +36,7 @@ app.get('',function(req,res){
 })
 
 app.get('/country',function(req,res){
-    res.render('Countries',{title:'Country\'s Cases'})
+    res.render('countries',{title:'Country\'s Cases'})
 })
 
 app.get('/country_data',function(req,res){
