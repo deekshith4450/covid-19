@@ -1,0 +1,31 @@
+{{>header}}
+<div class='container table-responsive'>
+<table class="table table-bordered table-hover">
+  <thead>
+      <tr>
+       <th class="table-info">Countries</th>
+       <th class="table-primary">TotalConfirmed</th>
+       <th class="table-success">TotalRecovered</th>
+       <th class="table-danger">TotalDeaths</th>
+       <th class="table-warning">NewConfirmed</th>
+        <th class="table-success">NewRecovered</th>
+        <th class="table-danger">NewDeaths</th>
+       </tr>
+  </thead> 
+    {{#each data.Countries}}
+    <tr>
+        <td class="table-info">{{this.Country}}</td>
+        <td class="table-primary">{{this.TotalConfirmed}}</td>
+        <td class="table-success">{{this.TotalRecovered}}</td>
+        <td class="table-danger">{{this.TotalDeaths}}</td>
+        <td class="table-warning">{{this.NewConfirmed}}</td>
+        <td class="table-success">{{this.NewRecovered}}</td>
+        <td class="table-danger">{{this.NewDeaths}}</td>
+
+        
+
+    </tr>
+    {{/each}}
+</table>
+</div>
+{{>footer}}

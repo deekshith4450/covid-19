@@ -1,0 +1,46 @@
+{{>header}}
+    <body>
+    
+        <div class = 'container'>
+            <div>
+                <h1 id='title'>{{title}}</h1>
+                
+                <form>
+                    <div class="input-group input-group-lg">
+                        
+                        <input placeholder='Enter a country' type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">   
+                        
+                    </div>
+
+                    <br>
+                    <button  class="btn btn-info btn-lg">SEARCH</button><a href='/countries-list' id='table'>For countries list</a>
+                </form>
+                
+                <div id='country_data'>
+                    <div id='ex' style="max-width: 18rem;">
+                        <div class='card-body'>
+                            <p id="message-1"></p>
+                        </div>
+                    </div>
+
+                    <div id='ex2' style="max-width: 18rem;">
+                        <div class='card-body'>
+                            <p id ='message-2'></p>
+                         </div>
+                    </div>
+                    <div id='ex3' style="max-width: 18rem;">
+                        <div class='card-body'>
+                        <p id ='message-3'></p>
+                     </div>
+                    </div>
+
+                </div>
+                
+
+            </div>
+        </div>
+
+    </body>
+<script src='./js/client.js'></script>
+
+{{>footer}}

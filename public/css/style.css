@@ -1,0 +1,45 @@
+#title{
+    text-transform: uppercase;
+    /* font-weight: 600; */
+    font-size: 65px;
+}
+body{
+    font-family: 'Quicksand', sans-serif;;
+}
+.nav-link{
+    color: black !important;
+    font-size: 30px;
+    
+}
+.country_data{
+    margin-top: 45px;
+    font-size: 20px;
+}
+.global_data{
+    margin-top: 45px;
+
+}
+.note{
+    margin-top:30px;
+}
+.card{
+    margin-top: 20px;
+}
+.style{
+    background-color: #007bff;
+    color: white;
+}
+.style3{
+    background-color: #dc3545;
+    color: white;
+}
+.style2{
+    background-color:#28a745;
+    color: white;
+}
+#table{
+    margin-left:25px ;
+}
+footer{
+    margin-top: 75px;
+}

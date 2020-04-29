@@ -1,0 +1,40 @@
+
+{{>header}}
+    <body>
+  
+        <div class= 'container'>
+            <h1 id='title'>{{title}}</h1>
+            <div class='global_data'>
+                
+                <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Total Cases:</h5>
+                        <p class="card-text">{{TotalConfirmed}}</p>
+                    </div>
+                </div>
+
+                <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Total Recovered:</h5>
+                        <p class="card-text">{{TotalRecovered}}</p>
+                    </div>
+                </div>
+
+                <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+                    {{!-- <div class="card-header">Total Deaths</div> --}}
+                    <div class="card-body">
+                        <h5 class="card-title">Total Deaths</h5>
+                        <p class="card-text">{{TotalDeaths}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+{{>footer}}
+
+
+     
+        
+    
