@@ -3,6 +3,7 @@ covid 19 cases tracker
 
 # Instructions
 After cloning or downloading the repo run this script in your terminal.
+
 1.delete package-lock.json
 2.npm insatall
 3.npm run start.
